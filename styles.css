@@ -1,0 +1,178 @@
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* change header properties */
+#header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#0D0D40 40%,#14144d , #862661);
+}
+
+/* navbar logo properties */
+.navbar .navbar-brand{
+    color: #00C2CB !important;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/* nav-link items properties */
+nav .navbar-nav .nav-link{
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navlink hover */
+nav .navbar-nav .nav-link:hover{
+    color: #00C2CB !important;
+    border-bottom: 2px solid #00C2CB;
+}
+
+/* navlink active */
+nav .navbar-nav .nav-link:active{
+    color: #00C2CB !important;
+}
+
+/* navbar toggler button image*/
+.nav-tog-btn{
+    height: 35px;
+    width: 35px;
+}
+
+#text-about-myself{
+    border-left: 3px solid #00C2CB;
+    padding: 0 0 5px 10px;
+    margin-bottom: 2rem;
+}
+
+#text-about-myself h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    display: inline;
+    line-height: 2ch;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.important{
+    color: #00C2CB !important;
+}
+
+#text-about-myself h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    line-height: 2ch;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#text-about-myself p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 0.1ch;
+    padding: 2px;
+    line-height: 2ch;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#picture-myself  img{
+    height: 400px;
+    width: 400px;
+}
+
+
+/* ========================================= this class apply anywhere ================================================== */
+
+.txt-align-center{
+    text-align: center;
+    line-height: 0.5ch;
+    padding-top: 1.8rem;
+}
+
+.hrz-line{
+    width: 10rem;
+    border-top: 3px solid #00C2CB;
+}
+
+.btn{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+/* ========================================= about section ================================================== */
+#about{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#0D0D40 40%,#14144d , #862661);
+}
+
+
+#about-me-txt p{
+    width: 24rem;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    border-left: 3px solid #00C2CB;
+    display: inline-block;
+}
+
+
+/* ========================================= skills section ================================================== */
+
+#skills{
+    min-height: 70vh;
+    width: 100%;
+    background: #862661 ;
+}
+
+
+
+/* ========================================= project section ================================================== */
+
+#project{
+    min-height: 60vh;
+    width: 100%;
+    background: #0D0D40;
+}
+
+
+
+/* ========================================= footer section ================================================== */
+
+#footer{
+    min-height: 25vh;
+    width: 100%;
+    background: linear-gradient(to left,#0D0D40 40%,#14144d , #862661);
+}
+
+
+
+.icon-circle{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background: #00C2CB;
+    border-radius: 50px;
+    transition: all ease-in 0.2s;
+}
+
+.icon-circle:hover{
+    background: #03959c;
+}
+
+.icon-image{
+    height: 30px;
+    width: 30px;
+}
