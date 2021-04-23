@@ -122,10 +122,12 @@ nav .navbar-nav .nav-link:active{
 
 #about-me-txt p{
     /* width: 22rem; */
+    width: 22rem;
     font-size: 1.5rem;
     padding-left: 5px;
     border-left: 3px solid #00C2CB;
-    display: inline-block;
+    /* display: inline-block; */
+    text-align: justify;
 }
 
 
